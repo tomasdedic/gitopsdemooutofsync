@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  bbconfig.json: |
+    {"level":"info","ts":1605441700.8959095,"logger":"klog","msg":"Server rejected event ObjectMeta:v1.ObjectMeta{Name:\"ahoj-svete.16477d1d3ee12d4d\",, Reason:\"ProjectEnvironmentsUpdated\", FirstTimestamp:v1.Time{Time:time.Time{wall:0xbfe430eb2c4e754d, ext:61997781084,  'events \"ahoj-svete.16477d1d3ee12d4d\" is forbidden: User \"system:serviceaccount:csas-project-operator:csas-project-operator-manager\" cannot patch resource \"events\" in API group \"\" in the namespace \"default\"' (will not retry!)"}
+    proxier.go:368] userspace proxy : processing 0 service events a nic k tomu uz nepridam jen demonstrace REGEX match pro INPPUT
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: repar-configmap
